@@ -1,6 +1,6 @@
-const addForm = document.querySelector('.add');
-const list = document.querySelector('.todos');
-const search = document.querySelector('.search input');
+const addForm = document.querySelector('.add'); //form element to add new todos at the bottom
+const list = document.querySelector('.todos');  //ul of the todos
+const search = document.querySelector('.search input'); //search form input
 
 const generateTemplate = todo => {
 
@@ -48,3 +48,5 @@ search.addEventListener('keyup', () => {
     filterTodos(term);
 
 });
+
+//that is the end

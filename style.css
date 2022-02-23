@@ -2,7 +2,7 @@ body {
     background: #352f5b;
 }
 .container {
-    max-width: 400px;
+    max-width: 400px; /*container div*/
 }
 input[type=text],
 input[type=text]:focus {
